@@ -1,0 +1,18 @@
+﻿<Window x:Class="voiceRecord.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:voiceRecord"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="LogIn" HorizontalAlignment="Left" Margin="456,171,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="24" FontWeight="Bold" Width="100"/>
+        <Label x:Name="lable1" Content="Password:" HorizontalAlignment="Left" Margin="78,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.142,-2.757" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="dirlable" Content="UserName:" HorizontalAlignment="Left" Margin="78,35,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <TextBox x:Name="userTb" HorizontalAlignment="Left" Margin="227,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" FontSize="24" FontWeight="Bold" />
+        <PasswordBox x:Name="passTb" HorizontalAlignment="Left" Margin="227,106,0,0" VerticalAlignment="Top" Width="311" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="318,171,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Click="Button_Click_1" Width="100"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="voiceRecord.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:voiceRecord"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Enter UserName:" HorizontalAlignment="Left" Margin="131,58,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <TextBox x:Name="usernameTxb" HorizontalAlignment="Left" Margin="361,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Enter Password:" HorizontalAlignment="Left" Margin="131,138,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <PasswordBox x:Name="passTxb" HorizontalAlignment="Left" Margin="362,146,0,0" VerticalAlignment="Top" Width="255" FontSize="24" FontWeight="Bold"/>
+        <PasswordBox x:Name="repasTxb" HorizontalAlignment="Left" Margin="362,190,0,0" VerticalAlignment="Top" Width="255" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Re-Enter Password:" HorizontalAlignment="Left" Margin="131,185,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="521,253,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Click="Button_Click" Width="100"/>
+        <Label Content="* UserName Must Consist only of Numbers and Letters" HorizontalAlignment="Left" Margin="361,108,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="Red"/>
+
+    </Grid>
+</Window>
